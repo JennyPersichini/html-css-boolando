@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.card {
+    heigth: 450px;
+    width: 300px;
+    border: 1px solid rgba(200, 200, 200, 0.763);
+    display: flex;
+    flex-direction: column;
+  }
+  
+img {
+    width: 100%;
+}
+  
+.info {
+    line-height: 20px;
+    padding: 10px;
+}
+
+.red-price {
+    color: red;
+    font-weight: bold;
+}
+
+.price {
+    text-decoration: line-through;
+    color:rgb(64, 64, 64);
+    font-size: small;
+    
+}
