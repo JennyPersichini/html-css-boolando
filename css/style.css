@@ -86,3 +86,30 @@ a {
 }
 
 /*footer*/
+  
+footer {
+    background-color: rgb(32, 32, 32);
+    height: auto;
+}
+  
+.footer-flex {
+    width: 70%;
+    margin: auto;
+    padding: 15px 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.text-white {
+    color: white;
+}
+
+.small {
+    font-size: x-small;
+}
+
+.footer-title-icon {
+    text-align: center;
+}
